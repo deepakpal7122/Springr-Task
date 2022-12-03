@@ -9,8 +9,8 @@ driver.maximize_window()
 
 driver.find_element(By.NAME,'first_name').send_keys('Deepak')
 driver.find_element(By.NAME,'last_name').send_keys('Pal')
-driver.find_element(By.NAME,'email').send_keys('deepak123@gmail.com')
-driver.find_element(By.NAME,'mobile').send_keys('7777784433')
+driver.find_element(By.NAME,'email').send_keys('deepak12345@gmail.com')
+driver.find_element(By.NAME,'mobile').send_keys('7777788833')
 
 driver.find_element(By.NAME,'date').click()
 driver.find_element(By.XPATH, "(//*[@type='button'])[8]").click()
