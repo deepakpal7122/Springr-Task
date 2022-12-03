@@ -10,7 +10,7 @@ driver.maximize_window()
 login_ele = driver.find_element(By.XPATH, "//*[text()='Login']")
 driver.execute_script("arguments[0].click();", login_ele)
 
-driver.find_element(By.NAME,"username").send_keys('deepak123@gmail.com')
+driver.find_element(By.NAME,"username").send_keys('deepak12345@gmail.com')
 driver.find_element(By.NAME,'password').send_keys('1234567890')
 
 time.sleep(2)
